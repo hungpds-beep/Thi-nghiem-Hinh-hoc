@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    background-color: #151e19;
+    color: #f1f5f9;
+  }
+}
+
+.font-caveat {
+  font-family: 'Caveat', cursive;
+}
+
+.font-mono-math {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+/* Chalkboard background pattern */
+.chalkboard-bg {
+  background-color: #17221b;
+  background-image: 
+    radial-gradient(rgba(255, 255, 255, 0.04) 1px, transparent 1px),
+    radial-gradient(rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+  background-size: 24px 24px, 48px 48px;
+  background-position: 0 0, 12px 12px;
+}
+
+.chalkboard-stage {
+  background-color: #141c17;
+  box-shadow: inset 0 0 40px rgba(0, 0, 0, 0.6);
+}
+
+/* Custom chalk glows */
+.chalk-shadow-yellow {
+  filter: drop-shadow(0 0 6px rgba(253, 224, 71, 0.4));
+}
+
+.chalk-shadow-blue {
+  filter: drop-shadow(0 0 6px rgba(56, 189, 248, 0.4));
+}
+
+.chalk-shadow-coral {
+  filter: drop-shadow(0 0 6px rgba(251, 113, 133, 0.4));
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(20, 28, 23, 0.8);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(74, 222, 128, 0.25);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(74, 222, 128, 0.45);
+}

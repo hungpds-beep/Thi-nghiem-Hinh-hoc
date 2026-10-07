@@ -1,0 +1,6 @@
+{
+  "name": "Phòng Thí Nghiệm Hình Học",
+  "description": "Ứng dụng mô phỏng hình học phẳng 2D, hình học không gian 3D và bảng dựng hình động phục vụ giảng dạy Toán học cấp 2 và cấp 3.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
